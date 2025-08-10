@@ -1,0 +1,10 @@
+#!/bin/sh                              
+#Test run script    
+                  
+make run                       \
+OPT="+UVM_VERBOSITY=UVM_MEDIUM     \
++inp_num_tx=6            \
++watchdog_timer=10000000                 \
+"                                  \
+GUI=0
+                   
